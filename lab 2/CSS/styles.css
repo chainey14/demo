@@ -1,0 +1,96 @@
+body {
+    background-color: coral;
+    font-family: 'Bebas Neue', cursive;;
+}
+
+#container {
+background-color: #4C5973; 
+width: 700px;
+margin: 20px auto;
+border-radius: 20px;
+}
+
+header {
+    margin-top: 15px;
+    
+}
+
+header img{
+display: block;
+width: 30%;
+margin: 0 auto;
+
+}
+
+header h1{
+    font-size: 2.5em;
+    text-align: center;
+    color: #F2CA99;
+}
+
+nav {
+    background-color: #CEF299;
+    padding-top: 15px;
+    text-align: center;
+}
+
+nav a{
+    display: inline-block;
+    background-color: #4C5973;
+    height: 30px;
+    width: 150px; 
+    font-size: 1em;
+    font-weight: bold;
+    line-height: 30px;
+    color: coral;
+    text-decoration: none;
+    border-radius: 15px 15px 0 0;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    background-color: coral;
+    color: #4C5973;
+}
+
+main{
+    background-color: #4C5973;
+    padding: 15px;
+    margin: 0 25px 25px 25px;
+    text-align: center;
+}
+
+main h2{
+    text-align: center;
+    color: coral;
+    font-size: 2em;
+}
+
+main img{
+    display: block;
+    width: 55%;
+    margin: 15px auto;
+    background-color: #4C5973;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+footer{
+    background-color: #4C5973;
+    padding: 15px 0;
+    color: coral;
+    font-size: 1em;
+    text-align: center;
+    border-radius: 0 0 15px 15px;
+}
+
+.active {
+    background-color: coral;
+    color: #4C5973;
+}
+
+.pro_head{
+    text-align: center;
+    color: coral;
+    font-size: 1em;
+}
